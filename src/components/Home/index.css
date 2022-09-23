@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-conatianer {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 10px;
+  min-width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-conatianer {
+    height: 50vh;
+    min-width: 450px;
+  }
+}
+
+/* Hex: #ffffff
+Hex: #b5b9ff
+Hex: #f8fafc
+Hex: #303150 */
